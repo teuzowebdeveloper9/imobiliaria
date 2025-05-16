@@ -20,8 +20,14 @@ export const Text = styled.div`
   } 
   span{
      color: var(--white);
-     padding: 10px;
+     padding: 8px;
      border: 1px solid var(--blue);
      background-color: var(--blue);
+     border-radius: 5px;
+     
+
   } 
+   span:hover{
+      cursor: pointer;
+   }      
 `
