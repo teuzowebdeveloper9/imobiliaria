@@ -4,9 +4,10 @@ import { createGlobalStyle } from "styled-components";
   * {
     margin: 0;
     padding: 0;
+
     box-sizing: border-box;
-    background-color: #242424;
-    color: white;
+    color: black;
+    
   }
    :root {
     --color-primary: #F7F9FC;
@@ -23,5 +24,6 @@ import { createGlobalStyle } from "styled-components";
     font-weight: 400;
     ul{list-style: none;}
     a{text-decoration: none;}
+    overflow-x: hidden;
 `;
 
