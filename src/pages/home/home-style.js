@@ -1,11 +1,14 @@
 import styled from "styled-components";
 
 export const HomeStyle = styled.div`
+  background-color: #F9F9F9;
   display:flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   padding: 25px;
-
+  h2{
+    color: #333333;
+  }
 
 `
 

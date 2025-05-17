@@ -20,7 +20,7 @@ import { createGlobalStyle } from "styled-components";
     background-color: var(--color-primary);
     color: var(--color-secondary);
     font-size: 1.2rem;
-     font-family: "Dosis", sans-serif;
+     font-family: "Poppins", sans-serif;
     font-weight: 400;
     ul{list-style: none;}
     a{text-decoration: none;}
