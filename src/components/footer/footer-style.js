@@ -4,7 +4,7 @@ export const FooterStyle = styled.div`
   display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr;
    border-top: 2px solid var(--gray);
-   padding: 100px 150px;
+   padding: 100px 100px;
    background-color: var(--white);
 `
 
@@ -26,8 +26,4 @@ export const ItemsFooter = styled.div`
       }
     }
   }
-`
-
-export const Copy = styled.div`
-
 `
