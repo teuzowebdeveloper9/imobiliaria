@@ -24,7 +24,7 @@ export const Text = styled.div`
      border: 1px solid var(--blue);
      background-color: var(--blue);
      border-radius: 5px;
-     
+     width: 100px;
 
   } 
    span:hover{
