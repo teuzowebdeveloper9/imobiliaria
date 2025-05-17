@@ -1,6 +1,5 @@
 import { CardStyle, Description, Img,Itens} from "./card-style";
-import { FaMapMarkerAlt } from "react-icons/fa";
-import { FaLongArrowAltRight } from "react-icons/fa";
+import { FaMapMarkerAlt,  FaLongArrowAltRight } from "react-icons/fa";
 
 
 function Cards() {
