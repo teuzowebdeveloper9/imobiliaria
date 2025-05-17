@@ -4,7 +4,6 @@ import { FaInstagram, FaFacebook,FaWhatsapp } from "react-icons/fa";
 
 function Footer() {
     return ( 
-        
         <FooterStyle>
               <ItemsFooter>
                <img src="./src/assets/foto.jpg" alt="logo" />
@@ -16,30 +15,22 @@ function Footer() {
                 </nav>
               </ItemsFooter>
                  <ItemsFooter>
-                <h3>our services</h3>
-                <nav>
-                    <li><span>comprar</span></li>
-                    <li><span>alugar</span></li>
-                    <li><span>vender</span></li>
-                </nav>
+                <h3>CARREIRAS</h3>
+                
+                    <li><span>seja um socio filiado</span></li>
+                    <li><span>cadastrar imoveis</span></li>
+                    <li><span>programa de indicação</span></li>
+                
               </ItemsFooter>
                  <ItemsFooter>
-                <h3>our services</h3>
-                <nav>
+                <h3>TODOS SERVIÇOS</h3>
+                
                     <li><span>comprar</span></li>
                     <li><span>alugar</span></li>
                     <li><span>vender</span></li>
-                </nav>
+                
               </ItemsFooter>
-                 <ItemsFooter>
-                <h3>our services</h3>
-                <nav>
-                    <li><span>comprar</span></li>
-                    <li><span>alugar</span></li>
-                    <li><span>vender</span></li>
-                </nav>
-              </ItemsFooter>
-           
+                
         </FooterStyle>
      );
 }

@@ -25,5 +25,8 @@ import { createGlobalStyle } from "styled-components";
     ul{list-style: none;}
     a{text-decoration: none;}
     overflow-x: hidden;
-`;
+   ul, nav, li{list-style-type: none;} 
+   a{text-decoration: none;}
+`
+;
 
