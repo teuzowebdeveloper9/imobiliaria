@@ -1,7 +1,9 @@
 import { Logo, Menu, Style } from "./style";
+import { useNavigate } from "react-router-dom";
 
 
 function Header() {
+    const navigate = useNavigate();
     return (
         <Style>
           <Logo>
@@ -9,7 +11,7 @@ function Header() {
           </Logo>
           <Menu>
             <ul>
-                <li>cadastro/login</li>
+                <li  onClick={() => navigate('/login')}>cadastro/login</li>
             </ul>
           </Menu>
             
