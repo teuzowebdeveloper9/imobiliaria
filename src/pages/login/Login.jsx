@@ -1,8 +1,8 @@
 import { LoginContainer, LoginBox, ImageBox, FormBox, Input, Button } from './Login-style';
-
+import { useNavigate } from 'react-router-dom';
 
 function Login() {
-    
+    const Navigate = useNavigate();
     return (
         <LoginContainer>
             <LoginBox>
@@ -13,7 +13,7 @@ function Login() {
                     <h2>Login</h2>
                     <Input type="text" placeholder="usuario" />
                     <Input type="password" placeholder="senha" />
-                    <Button >faça seu login</Button>
+                    <Button onClick={() => Navigate('/anuncios')}>faça seu login</Button>
                 </FormBox>
             </LoginBox>
         </LoginContainer>
