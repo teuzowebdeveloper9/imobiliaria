@@ -7,7 +7,7 @@ function Header() {
     return (
         <Style>
           <Logo>
-             <img src="./src/assets/foto.jpg" alt="logo" />
+             <img src="../src/assets/foto.jpg" alt="logo" />
           </Logo>
           <Menu>
             <ul>
