@@ -1,5 +1,6 @@
 import { Logo, Menu, Style } from "./style";
 import { useNavigate } from "react-router-dom";
+import imagelogo from '../../assets/foto.jpg'
 
 
 function Header() {
@@ -7,7 +8,7 @@ function Header() {
     return (
         <Style>
           <Logo>
-             <img src="../src/assets/foto.jpg" alt="logo" />
+             <img src={imagelogo} alt="logo" />
           </Logo>
           <Menu>
             <ul>
