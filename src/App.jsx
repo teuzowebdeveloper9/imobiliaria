@@ -1,21 +1,24 @@
-import Banner from "./components/banner/banner"
-import Copyright from "./components/copyright/copyright"
-import Footer from "./components/footer/footer"
-import Header from "./components/header/header"
 import Home from "./pages/home/home"
 import Imobi from "./pages/imobi/imobi"
+import Login from "./pages/login/Login"
+
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+
+
 
 function App() {
  
 
   return (
     <div>
-      <Header></Header>
-      <Banner></Banner>
-      <Home></Home>
-      <Imobi></Imobi>
-      <Footer></Footer>
-      <Copyright></Copyright>
+      <BrowserRouter>
+        <Routes>
+            <Route path="/" element={<Login />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/anuncios" element={<Imobi />} />
+        </Routes>
+ 
+      </BrowserRouter>
     </div>
      
    
