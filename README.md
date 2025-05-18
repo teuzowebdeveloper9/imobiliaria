@@ -33,6 +33,7 @@ The main components of the application are:
   git clone https://github.com/teuzowebdeveloper9/imobiliaria
   ```
 2. Navigate to the project directory:
+   
 3. Install dependencies:
   ```bash
   npm install
@@ -41,7 +42,7 @@ The main components of the application are:
   ```bash
   npm run dev
   ```
-5. Open your browser and visit `
+5. Open your browser and visit 
 
 ## Future Development Plans
 
